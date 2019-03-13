@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>たけまる部屋</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+  </head>
+  <body>
+  <h1>おすすめ小説一覧</h1>
+  <ul>
+  <li>きみの友だち　作者　重松清</li>
+  <li>ナイフ　作者　重松清</li>
+  <li>きみはいい子　作者　中脇初枝</li>
+</ul>
+  </body>
+</html>

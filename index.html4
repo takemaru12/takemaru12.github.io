@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>たけまる部屋</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700" rel="stylesheet">
+  </head>
+  <body>
+  <h1>おすすめドラマ</h1>
+  <ul>
+  <li>鈴木先生</li>
+  <li>虹のかなた</li>
+  <li>僕の生きる道</li>
+</ul>
+  </body>
+</html>

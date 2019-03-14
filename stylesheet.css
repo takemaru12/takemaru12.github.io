@@ -1,7 +1,6 @@
 body{
   margin: 0;
   font-family: "Hiragino Kaku Gothic ProN";
-  height:800px;
   background-image: url(MIYA160131480493_TP_V.jpg);
   background-size: cover;
   text-align: center;
@@ -10,11 +9,20 @@ body{
 .top-wrapper{
   padding-top: 120px;
 }
+@media screen and (max-width: 750px){
+ .top-wrapper{
+   margin-top: -100px;
+ }
+}
 h1{
   font-size: 50px;
   color:white;
   opacity:0.7;
-
+}
+@media screen and (max-width: 750px){
+  h1{
+    font-size: 60px;
+  }
 }
 p{
   font-size: 20px;
@@ -22,7 +30,11 @@ p{
   opacity:0.7;
   margin-bottom:  50px;
 }
-
+@media screen and (max-width: 750px){
+  p{
+    font-size: 25px;
+  }
+}
 a.cp_btn1 {
 	display: inline-block;
 	position: relative;
@@ -36,6 +48,11 @@ a.cp_btn1 {
 	overflow: hidden;
 	z-index: 1 !important;
   opacity: 0.9;
+}
+@media screen and (max-width: 750px){
+  .cp_btn1{
+    display:block;
+}
 }
 a.cp_btn1:after {
 	content:"";
@@ -76,6 +93,11 @@ a.cp_btn2 {
   margin:0 20px  0 20px;
   opacity: 0.9;
 }
+@media screen and (max-width: 750px){
+  .cp_btn2{
+    display: block;
+  }
+}
 a.cp_btn2:after {
 	content:"";
 	position: absolute;
@@ -114,6 +136,11 @@ a.cp_btn3 {
 	z-index: 1 !important;
   opacity: 0.9;
 }
+@media screen and (max-width: 750px){
+.cp_btn3{
+  display:block;
+}
+}
 a.cp_btn3:after {
 	content:"";
 	position: absolute;
@@ -146,6 +173,13 @@ a.cp_btn3:active:after {
 	position: relative;
 	display: inline-block;
 	height:150px;/*画面いっぱいにする場合100vh*/
+}
+@media screen and (max-width: 750px){
+.cp_arrows{
+  display:block;
+  height:100px;
+  margin-right: 200px;
+}
 }
 .cp_arrows .cp_arrow {
 	position: absolute;
@@ -211,4 +245,9 @@ a.cp_btn3:active:after {
 	100% {
 		opacity: 0;
 	}
+}
+@media screen and (max-width: 750px){
+  .item{
+    margin-top: -50px;
+  }
 }

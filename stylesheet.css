@@ -4,8 +4,8 @@ body{
   background-image: url(MIYA160131480493_TP_V.jpg);
   background-size: cover;
   text-align: center;
-
 }
+
 .top-wrapper{
   padding-top: 120px;
 }
@@ -21,7 +21,7 @@ h1{
 }
 @media screen and (max-width: 750px){
   h1{
-    font-size: 60px;
+    font-size: 45px;
   }
 }
 p{
@@ -52,6 +52,7 @@ a.cp_btn1 {
 @media screen and (max-width: 750px){
   .cp_btn1{
     display:block;
+    margin-top: -20px;
 }
 }
 a.cp_btn1:after {
@@ -90,12 +91,12 @@ a.cp_btn2 {
 	background: #66FF99;
 	overflow: hidden;
 	z-index: 1 !important;
-  margin:0 20px  0 20px;
   opacity: 0.9;
 }
 @media screen and (max-width: 750px){
   .cp_btn2{
     display: block;
+    margin-top: -20px;
   }
 }
 a.cp_btn2:after {
@@ -139,6 +140,7 @@ a.cp_btn3 {
 @media screen and (max-width: 750px){
 .cp_btn3{
   display:block;
+  margin-top: -20px;
 }
 }
 a.cp_btn3:after {
@@ -248,6 +250,7 @@ a.cp_btn3:active:after {
 }
 @media screen and (max-width: 750px){
   .item{
-    margin-top: -50px;
+    margin-top: -60px;
+    margin-bottom: 80px;
   }
 }

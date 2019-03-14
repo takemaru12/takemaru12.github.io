@@ -42,7 +42,7 @@ a.cp_btn1 {
 	padding: 0.8em;
 	text-align: center;
 	text-decoration: none;
-	color: #fff;
+	color: blue;
 	border:1px solid #8BC34A;
 	background: #66FF99;
 	overflow: hidden;
@@ -87,7 +87,7 @@ a.cp_btn2 {
 	padding: 0.8em;
 	text-align: center;
 	text-decoration: none;
-	color: #fff;
+	color: red;
 	border:1px solid #8BC34A;
 	background: #66FF99;
 	overflow: hidden;
@@ -132,7 +132,7 @@ a.cp_btn3 {
 	padding: 0.8em;
 	text-align: center;
 	text-decoration: none;
-	color: #fff;
+	color: green;
 	border:1px solid #8BC34A;
 	background: #66FF99;
 	overflow: hidden;

@@ -53,6 +53,7 @@ a.cp_btn1 {
   .cp_btn1{
     display:block;
     margin-top: -20px;
+	background: rgba(102,255,153,0.5);
 }
 }
 a.cp_btn1:after {

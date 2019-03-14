@@ -54,7 +54,6 @@ a.cp_btn1 {
     display:block;
     margin-top: -20px;
     background: rgba(102,255,153,0.5);
-   opacity:1px;
 }
 }
 a.cp_btn1:after {
@@ -99,8 +98,7 @@ a.cp_btn2 {
   .cp_btn2{
     display: block;
     margin-top: -20px;
-      background: rgba(102,255,153,0.5);
-   opacity:1px;
+    background: rgba(102,255,153,0.5);
   }
 }
 a.cp_btn2:after {
@@ -136,7 +134,7 @@ a.cp_btn3 {
 	text-decoration: none;
 	color: #fff;
 	border:1px solid #8BC34A;
-	background:#b0ffaa;
+	background: #b0ffaa;
 	overflow: hidden;
 	z-index: 1 !important;
   opacity: 0.9;
@@ -146,7 +144,6 @@ a.cp_btn3 {
   display:block;
   margin-top: -20px;
     background: rgba(102,255,153,0.5);
-   opacity:1px;
 }
 }
 a.cp_btn3:after {

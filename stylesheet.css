@@ -53,7 +53,7 @@ a.cp_btn1 {
   .cp_btn1{
     display:block;
     margin-top: -20px;
-background:red;
+font-weight:bold;
 }
 }
 a.cp_btn1:after {
@@ -98,8 +98,7 @@ a.cp_btn2 {
   .cp_btn2{
     display: block;
     margin-top: -20px;
-    background-color: rgba(102,255,153,0.5);
-	  color:red;
+    font-weight:bold;
   }
 }
 a.cp_btn2:after {
@@ -144,8 +143,7 @@ a.cp_btn3 {
 .cp_btn3{
   display:block;
   margin-top: -20px;
-    background-color: rgba(102,255,153,0.5);
-	color:green;
+    font-weight:bold;
 }
 }
 a.cp_btn3:after {
